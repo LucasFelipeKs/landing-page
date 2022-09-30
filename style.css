@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.menu{
+    background: rgba(42,177,176,255);
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    align-items: center;
+}
+
+.logo a{
+    color: white;
+    text-decoration: none;
+}
+
+.nav ul{
+    display: flex;
+    list-style: none;
+    align-content: center;
+}
+
+.nav ul li a{
+    padding: 10px 20px;
+    text-decoration: none;
+    color: rgba(18,42,81,255);
+    gap: 30px;
+    font-size: 18px;
+}
+
+.nav ul li a:hover{
+    color:white;
+    border-top: 3px solid white;
+}
+
+.corpo{
+    background-image: linear-gradient(225deg, #ffaa00, #ffefce);
+    height: 600px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.conteudo{
+    margin-left: 10%;
+    flex: 40%;s
+}
+
+.conteudo h4{
+    letter-spacing: 8px;
+    padding: 0;
+    color: rgba(18,42,81,255);
+}
+
+.conteudo h2{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 40px;
+    color: rgba(18,42,81,255);
+}
+
+.conteudo p{
+    margin-top: 12px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-bottom: 20px;
+}
+
+.botao{
+    background: rgba(18,42,81,255);
+    color: white;
+    padding: 15px 30px;
+    display: inline-block;
+    border-radius: 7px;
+    text-decoration: none;
+    text-transform: uppercase;
+    animation: pulse 0.755s ease-in-out infinite both;
+}
+
+@keyframes pulse {
+    0%{
+        transform: scale(1.0);
+    }
+
+    50%{
+        transform: scale(1.1);
+    }
+
+    100%{
+        transform: scale(1.0);
+    }
+}
+
+.botao:hover{
+    background: #e55a39;
+}
+
+.img-conteudo{
+    margin-right: 10%;
+    flex: 40%;
+    text-align: center;
+}
+
